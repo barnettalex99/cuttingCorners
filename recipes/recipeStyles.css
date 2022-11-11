@@ -1,4 +1,5 @@
-/* adds css styling to recipe sites*/
-.body {
-    background-color: blueviolet;
+/* adds css styling to recipe sites */
+body {
+   background-color: #F8F0E2;
+   font-family:'Times New Roman', Times, serif
 }
