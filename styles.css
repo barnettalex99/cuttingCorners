@@ -19,7 +19,7 @@ button{
 }
 
 p{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 h1{
@@ -27,7 +27,22 @@ h1{
 }
 
 nav{
+    display: flex;
+    flex-direction: row;
     color:#603E15;
+    font-size: 25px;
+}
+
+ul{
+    display:flex;
+    flex-direction: row;
+    align-content: space-between;
+    list-style: none;
+}
+
+li{
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .hero-text{
@@ -35,7 +50,7 @@ nav{
 }
 
 .button-caption{
-    font-size:20px;
+    font-size: 15px;
     margin: 20px;
 }
 
