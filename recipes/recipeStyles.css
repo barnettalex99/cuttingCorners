@@ -1,5 +1,42 @@
 /* adds css styling to recipe sites */
 body {
    background-color: #F8F0E2;
-   font-family:'Times New Roman', Times, serif;
+   color: #603E15;
+   font-family:'Courier New', Courier, monospace;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+img {
+   height: 150px;
+}
+
+nav{
+   display: flex;
+   flex-direction: row;
+   color:#603E15;
+   font-size: 25px;
+}
+
+ul{
+   display:flex;
+   flex-direction: row;
+   align-content: space-between;
+   list-style: none;
+}
+
+li{
+   margin-left: 40px;
+   margin-right: 40px;
+}
+
+a{
+   color:#603E15;
+}
+
+#ingredients{
+   flex-direction:column;
+   list-style:circle;
 }
