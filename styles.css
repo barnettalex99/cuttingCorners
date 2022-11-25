@@ -18,6 +18,10 @@ button{
     border-radius: 8px;
 }
 
+button:hover{
+    font-weight: bold;
+}
+
 p{
     font-size: 15px;
 }
@@ -56,6 +60,10 @@ li{
 
 a{
     color:#603E15;
+}
+
+a:hover{
+    font-weight: bold;
 }
 
 img {
